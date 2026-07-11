@@ -7,9 +7,7 @@ SELECT
     l.POSTAL_CODE,
     l.CITY,
     l.STATE_PROVINCE,
-    l.COUNTRY_ID,
     c.COUNTRY_NAME,
-    c.REGION_ID,
     r.REGION_NAME
     
 FROM HR.EMPLOYEES e
