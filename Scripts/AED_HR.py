@@ -17,8 +17,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # importando a base de dados diretamente do GitHub - repositório "Projeto_avaliativo_final_M01"
-URL_query1 = 'https://github.com/mariahbarros/Projeto_avaliativo_final_M01/blob/main/Query1.csv?raw=true'
-URL_query2 = 'https://github.com/mariahbarros/Projeto_avaliativo_final_M01/blob/main/Query2.csv?raw=true'
+URL_query1 = 'https://github.com/mariahbarros/Projeto_avaliativo_final_M01/blob/main/Dados_csv/Query1.csv?raw=true'
+URL_query2 = 'https://github.com/mariahbarros/Projeto_avaliativo_final_M01/blob/main/Dados_csv/Query2.csv?raw=true'
 
 # transformando as bases de dados em dataframes
 df_query1 = pd.read_csv(URL_query1, sep=',', encoding='utf-8')
