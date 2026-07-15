@@ -1,7 +1,6 @@
 SELECT 
     e.EMPLOYEE_ID,
     e.HIRE_DATE,
-    h.END_DATE,
     j.JOB_TITLE,
     d.DEPARTMENT_NAME,
     e.SALARY,
